@@ -1,0 +1,21 @@
+* {
+    font-weight: 100;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+h3 {
+    margin-top: 0;
+}
+
+p {
+    margin: 0;
+}
+
+.group {
+    clear: left;
+    padding: 10px;
+}
+
+.item {
+    margin-bottom: 20px;
+}

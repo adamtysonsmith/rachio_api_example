@@ -1,0 +1,41 @@
+
+doctype html
+html(lang='en')
+    head
+        meta(charset="utf-8")
+        title Rachio API Example
+        link(rel="stylesheet" href="/style.css")
+
+    body
+        h1 Rachio API Example
+        
+        div.group
+            h2 Person
+            
+            div.item
+                p
+                button#person-id Get Person Id
+                
+            div.item
+                p
+                button#person-data Get Person Name
+        
+        div.group
+            h2 Stop Device & Start Zones
+            h3 Device Name: V17140126
+            
+            div.item
+                p 
+                button#stop-watering Stop All Watering on Device
+                
+            div.item
+                p
+                button#zone-8-start Start Zone 8
+                
+            div.item
+                p 
+                button#all-zones-start Start All Zones
+        
+        
+        script(src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js")
+        script(src="/main.js")
